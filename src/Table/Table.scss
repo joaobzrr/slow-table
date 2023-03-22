@@ -1,0 +1,30 @@
+.table {
+    will-change: transform;
+    overflow: auto;
+    border: 1px solid black;
+    color: black;
+}
+
+.body {
+    position: relative;
+}
+
+.row {
+    position: absolute;
+    border-bottom: 1px solid black;
+}
+
+.cell {
+    display: inline-flex;
+    align-items: center;
+    position: absolute;
+    height: 100%;
+    border-right: 1px solid black;
+}
+
+.content {
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    padding: 0 0.5rem;
+}
